@@ -1,0 +1,78 @@
+html{
+    scroll-behavior: smooth;
+}
+aside{
+    width: 40%;
+    height: 10%;
+    float: right;
+    background-color: lavender;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.fig{
+   width: 300px;
+   height: 400px;
+   background-color: lightsteelblue;
+   padding-top: 40px;
+   text-align: center;
+   color: red;
+   box-sizing: border-box;
+}
+#bb{
+    width: fit-content;
+    height: fit-content;
+    background-color: pink;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#bio{
+    color: aliceblue;
+    background-color: purple;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#ac{
+    width: fit-content;
+    height: fit-content;
+    background-color: aquamarine;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+#ach{
+   color: blueviolet;
+   background-color: antiquewhite;
+   padding: 10px;
+   box-sizing: border-box;
+}
+#res{
+    width: fit-content;
+    height: fit-content;
+    background-color: plum;
+    padding: 10px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+#resources{
+    color: green;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: lavenderblush;
+}
+#divi{
+    background-color: blanchedalmond;
+    padding: 10px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    
+}
+#head{
+    background-color:rosybrown ;
+    display: inline;
+}
+
+/*the scroll_behaviour is used to smoothly scroll to the resources section without any jerk through bookmark-->
+<!-- the float property of the aside tag is set to right to shift the content of aside tag to the right and the width (the size) is set 40% -->
