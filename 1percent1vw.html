@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1% vs 1vw</title>
+  <style>
+    .percent-box {
+      width: 50%; /* 50% of the parent element's width */
+      height: 50%; /* 50% of the parent element's height */
+      background-color: lightblue;
+    }
+
+    .vw-box {
+      width: 10vw; /* 10% of the viewport width */
+      height: 10vw; /* 10% of the viewport width */
+      background-color: lightcoral;
+    }
+
+    .container {
+      width: 500px;
+      height: 500px;
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="percent-box">1%</div>
+  </div>
+  <div class="vw-box">1vw</div>
+
+
+
+  <!-- The difference between 1% and 1vw in CSS lies in what they measure and how they behave:
+
+  1% (Percentage)
+  Definition: A percentage value is relative to the size of the parent element.
+  Usage Context: Depends on the property it is applied to. For example:
+  For width or height, 1% is calculated based on the width or height of the parent element.
+  For properties like margin, padding, and others, it is relative to the size of the parent element's width unless otherwise specified.
+  Dynamic Behavior: Changes as the size of the parent element changes.
+
+  1vw (Viewport Width)
+  Definition: 1vw is 1% of the width of the entire viewport (the browser window or device screen).
+  Usage Context: It is independent of the parent element and always refers to the viewport size.
+  Dynamic Behavior: Changes when the size of the viewport (browser window) changes.-->
+</body>
+</html>
